@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+header{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(img/412a7753295901.592f214790448.gif);
+    width: 100%;
+    height: 70rem;
+    background-repeat: no-repeat;
+}
+.header__nav{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.header__nav__navbar{
+    list-style-type: none;
+    text-align: none;
+    text-decoration: none;
+    color: black;
+    margin: 0;  
+    display: flex;
+}
+.header__nav-logo{
+    color: black;
+}
+.header__nav__navbar__nav-item{
+    opacity: 0;
+}
+.header__nav-logo:hover ~.header__nav__navbar__nav-item{
+    opacity: 100%;
+}
+.header__nav__navbar__nav-item__link{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+.header__title{
+    text-align: center;
+    font-size: 100px;
+}
+.header__paragraph{
+    text-align: center;
+    font-size: 50px;
+}
+.main__card-wrapper{
+    background-image: url(img/412a7753295901.592f214790448.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.main__card{
+    background-image: url(img/412a7753295901.592f214790448.gif);
+    width: 10rem;
+    height: 15rem;
+    margin: 5rem;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.main__card-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 3rem;
+    
+}
+.main__card1{
+    background-image: url(img/djemaa-el-fna-plein-in-marrakesh_7059_xl.jpg);
+    background-size: cover;
+}
+.main__card1:hover{
+    animation-name: image1;
+}
+@keyframes image1{
+    50% {
+        background-image: url(img/djemaa-el-fna-plein-in-marrakesh_7059_xl.jpg);
+    }
+    100% {
+        background-image: url(img/carpets-medina-marrakech-guide.webp);
+    }
+}
+.main__card2{
+    background-image: url(img/medina-chaouen-2.jpg);
+    background-size: cover;
+}
+.main__card2:hover{
+    animation-name: image2;
+}
+@keyframes image2{
+    50% {
+        background-image: url(img/medina-chaouen-2.jpg);
+    }
+    100% {
+        background-image: url(img/IMG_3580-1.jpg);
+    }
+}
+.main__card3{
+    background-image: url(img/Dubai-Tourism-to-open-1.jpg);
+    background-size: cover;
+}
+.main__card3:hover{
+    animation-name: image3;
+}
+@keyframes image3{
+    50% {
+        background-image: url(img/Dubai-Tourism-to-open-1.jpg);
+    }
+    100% {
+        background-image: url(img/3_LaxOpenContainerLaws_LasVegas_shutterstock149733929.jpg);
+    }
+}
+.main__card4{
+    background-image: url(img/5107-04.jpg);
+    background-size: cover;
+}
+.main__card4:hover{
+    animation-name: image4;
+}
+@keyframes image4{
+    50% {
+        background-image: url(img/5107-04.jpg);
+    }
+    100% {
+        background-image: url(img/GettyImages-946087016.jpg);
+    }
+}
+.main__card5{
+    background-image: url(img/shutterstock_1012724596-860x430.jpg);
+    background-size: cover;
+}
+.main__card5:hover{
+    animation-name: image5;
+}
+@keyframes image5{
+    50% {
+        background-image: url(img/shutterstock_1012724596-860x430.jpg);
+    }
+    100% {
+        background-image: url(img/streetflicker.gif);
+    }
+}
+.main__card6{
+    background-image: url(img/Chinatown_arch2_G.Widman_2200x1237vp.jpg);
+    background-size: cover;
+}
+.main__card6:hover{
+    animation-name: image6;
+}
+
+@keyframes image6{
+    50% {
+        background-image: url(img/Chinatown_arch2_G.Widman_2200x1237vp.jpg);
+    }
+    100% {
+        background-image: url(img/tour_img-1987292-146.jpg);
+    }
+}
+.main__section-wrapper{
+    background-image: url(img/412a7753295901.592f214790448.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+.footer__background{
+    background-image: url(img/412a7753295901.592f214790448.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+.main__section-background{
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    height: 500px;
+}
+.main__section__paragraph{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    margin: 0 auto;
+}
+    
